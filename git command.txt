@@ -1,0 +1,25 @@
+To check hash key(md5,sha1 etc.)
+
+SHA:- Secure hash algorithm
+
+certutil --hashfile filename.ex md5
+
+git config --global user.name"Sourav"
+
+git config --global user.email"sourav.praharaj4@gmail.com"
+
+To check whether it's a git repository or not
+
+git status
+
+To convert it into git repository
+git init
+
+files into staging area
+git add --a
+
+
+
+
+
+Praharaj
