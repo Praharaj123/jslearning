@@ -1,0 +1,97 @@
+To check hash key(md5,sha1 etc.)
+
+SHA:- Secure hash algorithm
+
+certutil --hashfile filename.ex md5
+
+git config --global user.name"Sourav"
+
+git config --global user.email"sourav.praharaj4@gmail.com"
+
+To check whether it's a git repository or not
+
+git status
+
+git init(TO INITIALIZE THE FOLDER)
+
+GIT ADD --A(TO MOVE INTO STAGING AREA)
+
+AFTER STAGING ,WE WILL GO FOR COMMIT
+
+GIT COMMIT -M"COMMENTS NEEDED TO PUT"
+
+
+rm -rf .git(it will delete the git folder)
+
+rm -rf is a linux command
+
+
+For ignorining files in git, we need to make a file gitignore
+by using touch .gitignore
+We have to open gitignore file and there we need to mention all those files,what we want to ignore
+including files and directory
+
+git diff will compare between staging area file and modified file.
+
+
+git diff --staged(changes between 2 stage of a file)
+
+To skip the staging
+
+git commit -a -m"comments",for the new file once we need to stage it
+
+<<<<<<< HEAD
+To rename a file we are using mv command
+
+mv will be used as a moving and renaming 
+
+git mv 
+
+If a file is being tracked and need to ignore it , we need to put it in
+.gitignore,but if we did some changes in that file,it will be coming as not tracked.
+to do it we need to use 
+
+
+
+git rm --cached(to untrack)
+=======
+>>>>>>> parent of ba8a215... added git mv commands
+
+git log -p -n(n will be the no,which will show the difference)
+
+git log --stat
+
+git log --pretty=oneline
+
+git log --pretty=short
+
+git log --pretty=full
+
+git log --since=2.days
+
+git log --pretty=format:"%h -- %an"
+
+i :- insert in vim editor
+
+:wq :-for quit
+
+git restore --staged filename.txt
+
+git checkout -f(it will go back to the last commit)
+
+hkk
+
+git push -u origin master
+
+
+alias:-
+
+
+git config --global alias.st status
+
+
+git branch --merged -->it will show all the merged
+
+git branch -v -->it will show the commit with all the branch
+
+
