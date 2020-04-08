@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1st commit
 
 
@@ -5,3 +6,6 @@
 
 
 3rd commit
+=======
+1st commit
+>>>>>>> parent of 15318ea... 2nd commit
